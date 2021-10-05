@@ -2,7 +2,7 @@ import pathlib
 from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 VERSION = '0.0.1'
-PACKAGE_NAME = 'EDA'
+PACKAGE_NAME = 'exploredata'
 AUTHOR = 'Sumayyah Taiwo'
 AUTHOR_EMAIL = 'sumty4deen@gmail.com'
 URL = 'https://github.com/Sumta4real/ExploratoryDataAnalysis'
@@ -12,9 +12,9 @@ LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 INSTALL_REQUIRES = [
       'numpy',
-      'pandas'
-      'matplotlib'
-      'seaborn'
+      'pandas',
+      'matplotlib',
+      'seaborn',
       'scipy'
 ]
 setup(name=PACKAGE_NAME,
