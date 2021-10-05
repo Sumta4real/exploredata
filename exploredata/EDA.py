@@ -11,7 +11,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import iqr
-#from sklearn.model_selection import train_test_split
 
 class EDA:
     """ class for Exploratory Data Analysis for csv file"""
@@ -80,8 +79,3 @@ class EDA:
             result.append(print(i,':outliers =',count,',lower_threshold =',lower_threshold ,',upper_threshold =',upper_threshold,
                                 'Q1 =',Q[1],',Q2 =',Q[2],',Q3 =',Q[3],',Q4 =',Q[4],',iqr =',IQR))
             return result
-
-
-    
-data = EDA('C:/Users/user/Downloads/train_data.csv')
-print(data)
