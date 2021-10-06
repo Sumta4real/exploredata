@@ -1,7 +1,7 @@
 README.md
 setup.py
-exploredata/EDA.py
 exploredata/__init__.py
+exploredata/exploredata.py
 exploredata.egg-info/PKG-INFO
 exploredata.egg-info/SOURCES.txt
 exploredata.egg-info/dependency_links.txt

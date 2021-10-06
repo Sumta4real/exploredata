@@ -26,6 +26,5 @@ Description:
         ---
         pip install exploredata
         
-        
 Platform: UNKNOWN
 Description-Content-Type: text/markdown
