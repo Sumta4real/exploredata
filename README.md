@@ -17,4 +17,3 @@ conda install exploredata
 #pypi
 ---
 pip install exploredata
-
