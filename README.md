@@ -9,11 +9,16 @@ Python Package that performs Exploratory Data Analysis
 
 ## Installing
 
-#conda
----
-conda install exploredata
-
-
-#pypi
----
 pip install exploredata
+
+## Usage
+
+- **import exploredata as ep**   *#imports the exploredata package*
+
+- **new_variable = ep.EDA(file path)**  *#calls the EDA module in the package. The module import your csv file and assign it as a pandas dataframe to the variable 'train'. It also returns the summarry of the data*
+- **new_variable.df**  *#prints the pandas dataframe*   
+- **new_variable.num_var()**      *#returns a tuple containing the number and the list of numerical variables in the dataframe*
+- **train.null_var()**  *#returns a tuple containing the number and the list of numerical variables containing null values*
+- **help(ep.EDA)**  *#provide information on all methods defined in the EDA module*
+
+
